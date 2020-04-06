@@ -14,10 +14,10 @@
 {% if global_base %}
 <th class="number zero-width-1000">{% trans "Sentences of total" %}</th><!-- TODO: Rename? -->
 {% endif %}
-<th class="number zero-width-640">{% trans "Untranslated" %}</th>
-<th class="number zero-width-720">{% trans "Untranslated words" %}</th>
-<th class="number zero-width-768">{% trans "Checks" %}</th>
-<th class="number zero-width-900">{% trans "Suggestions" %}</th>
+<!-- <th class="number zero-width-640">{% trans "Untranslated" %}</th> -->
+<!-- <th class="number zero-width-720">{% trans "Untranslated words" %}</th> -->
+<!-- <th class="number zero-width-768">{% trans "Checks" %}</th> -->
+<!-- <th class="number zero-width-900">{% trans "Suggestions" %}</th> -->
 <th class="number zero-width-1000">{% trans "Comments" %}</th>
 <th class="sort-skip"></th>
 </tr>
@@ -57,11 +57,11 @@
 {% if global_base %}
 {% include "snippets/list-objects-percent.html" with percent=global_stats.translated_percent value=global_stats.translated all=global_stats.all class="zero-width-1000" %}
 {% endif %}
-{% include "snippets/list-objects-number.html" with value=stats.todo query="q=state:<translated" class="zero-width-640" %}
-{% include "snippets/list-objects-number.html" with value=stats.todo_words query="q=state:<translated" class="zero-width-720" %}
-{% include "snippets/list-objects-number.html" with value=stats.allchecks query="q=has:check" class="zero-width-768" %}
+<!-- {% include "snippets/list-objects-number.html" with value=stats.todo query="q=state:<translated" class="zero-width-640" %} -->
+<!-- {% include "snippets/list-objects-number.html" with value=stats.todo_words query="q=state:<translated" class="zero-width-720" %} -->
+<!-- {% include "snippets/list-objects-number.html" with value=stats.allchecks query="q=has:check" class="zero-width-768" %} -->
 {% include "snippets/list-objects-number.html" with value=stats.suggestions query="q=has:suggestion#suggestions" class="zero-width-900" %}
-{% include "snippets/list-objects-number.html" with value=stats.comments query="q=has:comment#comments" class="zero-width-1000" %}
+<!-- {% include "snippets/list-objects-number.html" with value=stats.comments query="q=has:comment#comments" class="zero-width-1000" %} -->
 <td class="actions buttons-cell" rowspan="2">
 {% if translate_url %}
 <a href="{{ translate_url }}{% if stats.todo %}?q=state:&lt;translated{% endif %}" class="btn {% if stats.todo %}btn-primary{% else %}btn-info{% endif %}">
