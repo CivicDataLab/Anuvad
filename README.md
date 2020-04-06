@@ -4,7 +4,7 @@
 
 Install on Debian and Ubuntu:
 
-*System requirements*
+**System requirements**
 
 ```
 apt install \
@@ -13,12 +13,12 @@ apt install \
    build-essential python3-gdbm python3-dev python3-pip python3-virtualenv virtualenv git
 ```
 
-*Databases used*
+**Databases used**
 
 1. Postgresql
 2. Redis
 
-*Python Modules*
+**Python Modules**
 
 ```
 pip install -e weblate
