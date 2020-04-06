@@ -31,7 +31,7 @@
 <div class="tab-pane active" id="components">
 
 
-{% include "snippets/list-objects.html" with objects=components name_source="name" label=_("Component") %}
+{% include "snippets/list-objects.html" with objects=components name_source="name" label=_("Resource") %}
 
 {% if user_can_edit_project %}
   <a class="btn btn-primary project-add-component" href="{% url 'create-component' %}?project={{ object.pk }}">{% trans "Add new COVID19 resource" %}</a>
