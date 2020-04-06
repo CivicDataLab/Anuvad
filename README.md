@@ -24,7 +24,7 @@ apt install \
 pip install -e weblate
 ```
 
-1. Copy the file weblate/weblate/settings_example.py to weblate/weblate/settings.py
+1. Copy the file `weblate/weblate/settings_example.py` to `weblate/weblate/settings.py`
 2. Adjust the values in the new `settings.py` file to your liking.
 3. Create the database and migrate using `weblate migrate`
 4. Create the administrator user account and copy the password it outputs to the clipboard, and also save it for later use: `weblate createadmin`
