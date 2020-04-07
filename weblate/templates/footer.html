@@ -2,7 +2,7 @@
 {% load i18n %}
 <footer>
  <ul>
-  <li>{% blocktrans %}Powered by {{ weblate_version_link }}{% endblocktrans %}</li>
+  <!-- <li>{% blocktrans %}Powered by {{ weblate_version_link }}{% endblocktrans %}</li> -->
   <li><a href="https://www.civicdatalab.in/">{% blocktrans %}About CivicDataLab{% endblocktrans %}</a></li>
   {% if has_legal %}
   <li><a href="{% url 'legal:index' %}">{% trans "Legal" %}</a></li>
