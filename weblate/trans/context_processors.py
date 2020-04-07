@@ -125,7 +125,7 @@ def weblate_context(request):
         description = _("Hosted Weblate, the place to localize your software project.")
     else:
         description = _(
-            "This site runs Weblate for localizing various software projects."
+            "COVID19 media hub by CivicDataLab"
         )
 
     weblate_url = URL_BASE % weblate.VERSION
