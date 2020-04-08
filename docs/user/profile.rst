@@ -19,13 +19,10 @@ You can register by following a few simple steps:
 Dashboard
 ---------
 
-When you log in, you will see an overview of projects and components,
+When you log in, you will see an overview of COVID19 topics and COVID19 resources,
 as well as their respective translation progression.
 
-.. versionadded:: 2.5
-
-Components of projects you are watching are shown by default, and
-cross-referenced with your preferred languages.
+Resources you are watching are shown by default, and cross-referenced with your preferred languages.
 
 .. hint::
 
@@ -37,31 +34,15 @@ The menu has these options:
 
 - :guilabel:`Projects` > :guilabel:`Browse all projects` in the main menu (or in the menu
   :guilabel:`Tools` → :guilabel:`All projects` in the Dashboard) showing translation status
-  for each project on the Weblate instance.
+  for each COVID19 topic on the Anuvad instance.
 - Selecting a language in the main menu :guilabel:`Languages` will show translation status of all projects,
   filtered by one of your primary languages.
-- :guilabel:`Watched translations` in the Dashboard will show translation status of only those
-  projects you are watching, filtered by your primary languages.
+- :guilabel:`Watched translations` in the Dashboard will show translation status of only those COVID19 topics you are watching, filtered by your primary languages.
 
-In addition, the drop-down can also show any number of *component lists*, sets
-of project components preconfigured by the Weblate administrator, see
-:ref:`componentlists`.
-
-You can configure your personal default dashboard view in the :guilabel:`Preferences` section of
-your user profile settings.
-
-.. note::
-
-   When Weblate is configured for a single project using
-   :setting:`SINGLE_PROJECT` in the :file:`settings.py` file (see :ref:`config`), the dashboard
-   will not be shown, as the user will be redirected to a single project or component instead.
-
-.. _user-profile:
 
 User profile
 ------------
-The user profile is accessible by clicking your user icon in the top-right of the top menu,
-then the :guilabel:`Settings` menu.
+The user profile is accessible by clicking your user icon in the top-right of the top menu, then the :guilabel:`Settings` menu.
 
 The user profile contains your preferences. Name and e-mail address is used in VCS commits, so keep this info accurate.
 
@@ -95,24 +76,6 @@ the Hebrew language is shown as secondarily:
 
 .. image:: /images/secondary-language.png
 
-Default dashboard view
-++++++++++++++++++++++
-
-On the :guilabel:`Preferences` tab, you can pick which of the available
-dashboard views to present by default. If you pick the :guilabel:`Component
-list`, you have to select which component list will be displayed from the
-:guilabel:`Default component list` drop-down.
-
-.. seealso::
-
-    :ref:`componentlists`
-
-Avatar
-++++++
-
-Avatar can be shown for each user (depending on :setting:`ENABLE_AVATARS`).
-These images are obtained using https://gravatar.com/.
-
 Editor link
 +++++++++++
 
@@ -145,7 +108,7 @@ example about new strings to translate), while some trigger at component level
 (for example merge errors). These two groups of notifications are visually
 separated in the settings.
 
-You can toggle notifications for watched projects and administered projects and it
+You can toggle notifications for watched COVID19 topics and administered COVID19 topics and it
 can be further tweaked (or muted) per project and component. Visit the component
 page and select appropriate choice from the :guilabel:`Watching` menu.
 
