@@ -12,13 +12,3 @@ Administrator docs
 ------------------
 
 .. include:: toc-admin.rst
-
-Contributor docs
-----------------
-
-.. include:: toc-contrib.rst
-
-Change History
---------------
-
-.. include:: toc-changes.rst
