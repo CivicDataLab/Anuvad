@@ -27,12 +27,11 @@ def setup(app):
 
 # -- Project information -----------------------------------------------------
 
-project = "Weblate"
-copyright = "2012 - 2020 Michal Čihař"
-author = "Michal Čihař"
+project = "Anuvad"
+author = "CivicDataLab"
 
 # The short X.Y version
-version = "4.0"
+version = "1.0"
 # The full version, including alpha/beta/rc tags
 release = version
 
