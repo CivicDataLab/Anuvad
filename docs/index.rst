@@ -6,8 +6,6 @@
 
 .. include:: toc-contrib.rst
 
-.. include:: toc-changes.rst
-
 Indices and tables
 ------------------
 
