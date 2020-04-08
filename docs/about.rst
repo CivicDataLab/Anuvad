@@ -1,37 +1,22 @@
-About Weblate
+About Anuvad
 =============
 
 Project goals
 -------------
 
-Web-based continuous localization tool with tight :ref:`vcs` supporting a wide range of
-:ref:`formats`, making it easy for translators to contribute.
-
-Project name
-------------
-
-"Weblate" is a portmanteau of the words "web" and "translate".
+Anuvad is a crowd source translation platform, built in the times of COVID19 crisis, for dissemination of COVID19 related information about best practices and behavioral suggestions in regional languages.
 
 Project website
 ---------------
 
-The landing page is <https://weblate.org/> and a cloud hosted service at
-<https://hosted.weblate.org/>. This documentation can be found on
-<https://docs.weblate.org/>.
-
-Project logos
--------------
-
-The project logos and other graphics is available in
-<https://github.com/WeblateOrg/graphics/> repository.
+The landing page is <https://anuvad.civicdatalab.in/>.
 
 Leadership
 ----------
 
-This project is maintained by Michal Čihař <michal@cihar.com>.
+This project is maintained by CivicDataLab.
 
 Authors
 -------
 
-Weblate was started by Michal Čihař <michal@cihar.com>. Since its inception in
-2012, thousands of people have contributed.
+Anuvad is built on top of weblate and actively developed and maintained by CivicDataLab.
