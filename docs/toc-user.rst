@@ -8,11 +8,5 @@
     user/files
     user/checks
     user/search
-    devel/index
     workflows
     faq
-    formats
-    vcs
-    api
-    wlc
-    python
