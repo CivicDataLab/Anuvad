@@ -1,4 +1,4 @@
-Translating usinag Anuvad
+Translating using Anuvad
 =========================
 
 Thank you for interest in translating using Anuvad. COVID19 topics can either be
