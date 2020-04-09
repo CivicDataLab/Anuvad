@@ -34,7 +34,7 @@ Fields
 ``priority:NUMBER``
    String priority.
 ``added:DATETIME``
-   Timestamp when string was added to Weblate.
+   Timestamp when string was added to Anuvad.
 ``state:TEXT``
    State search (``approved``, ``translated``, ``needs-editing``, ``empty``, ``read-only``), supports :ref:`search-operators`.
 ``pending:BOOLEAN``
