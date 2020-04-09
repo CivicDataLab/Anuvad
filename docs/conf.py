@@ -108,7 +108,7 @@ html_static_path = ["../weblate/static/"]
 #
 # html_sidebars = {}
 
-html_logo = "../weblate/static/logo-128.png"
+# html_logo = "../weblate/static/logo-128.png"
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
