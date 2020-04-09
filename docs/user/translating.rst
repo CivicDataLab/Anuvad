@@ -1,14 +1,14 @@
-Translating using Weblate
+Translating usinag Anuvad
 =========================
 
-Thank you for interest in translating using Weblate. Projects can either be
+Thank you for interest in translating using Anuvad. COVID19 topics can either be
 set up for direct translation, or by way of accepting suggestions made by
 users without accounts.
 
 Overall, there are two modes of translation:
 
-* The project accepts direct translations
-* The project accepts only suggestions, which are automatically validated once a defined number of votes is reached
+* The COVID19 topic accepts direct translations
+* The COVID19 topic accepts only suggestions, which are automatically validated once a defined number of votes is reached
 
 Please see :ref:`workflows` for more information on translation workflow.
 
@@ -34,7 +34,7 @@ Translation projects hold related components, related to the same software, book
 Translation links
 -----------------
 
-Having navigated to a component, a set of links lead to actual translation.
+Having navigated to a resource, a set of links lead to actual translation.
 The translation is further divided into individual checks, like
 :guilabel:`Untranslated` or :guilabel:`Needing review`.  If the whole project
 is translated, without error, :guilabel:`All translations` is still available.
@@ -47,7 +47,7 @@ Suggestions
 
 .. note::
 
-    Actual permissions might vary depending on your Weblate configuration.
+    Actual permissions might vary depending on your Anuvad configuration.
 
 Anonymous users can only (if permitted) forward suggestions.  Doing so is still
 available to signed in users, in cases where uncertainty about the translation
@@ -59,8 +59,8 @@ suggestions that match the current translation.
 Comments
 --------
 
-The comments can be posted in two scopes - source string or translation. Choose
-the one which matches the topic you want to discuss. The source string comments are
+The comments can be posted in two scopes - source sentence or translation. Choose
+the one which matches the topic you want to discuss. The source sentence comments are
 good for prividing feedback on the original string, for example that it should
 be rephrased or it is confusing.
 
@@ -80,7 +80,7 @@ frontend can use different strings depending on the screen or window size.
 Labels
 ------
 
-Labels are used to categorize strings within a project. These can be used to
+Labels are used to categorize strings within a topic. These can be used to
 further customize the localization workflow, for example to define categories
 of strings.
 
@@ -119,10 +119,10 @@ cars are referenced, or the concept of cars as a noun.  Languages like for
 example Czech or Arabic have more plurals and also their rules for plurals are
 different.
 
-Weblate has full support for each of these forms, in each respective language
+Anuvad has full support for each of these forms, in each respective language
 by translating every plural separately.  The number of fields and how it is
 used in the translated application depends on the configured plural equation.
-Weblate shows the basic information, but you can find a more detailed description in
+Anuvad shows the basic information, but you can find a more detailed description in
 the `Language Plural Rules`_ by the Unicode Consortium.
 
 .. _Language Plural Rules: https://unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html
@@ -131,11 +131,6 @@ the `Language Plural Rules`_ by the Unicode Consortium.
 
 Keyboard shortcuts
 ++++++++++++++++++
-
-.. versionchanged:: 2.18
-
-    The keyboard shortcuts have been revamped in 2.18 to less likely collide
-    with browser or system defaults.
 
 The following keyboard shortcuts can be utilized during translation:
 
@@ -204,7 +199,7 @@ Nearby strings
     Displays neighbouring messages from the translation file. These
     are usually also used in a similar context and prove useful in keeping the translation consistent.
 Other occurences
-    In case a message appears in multiple places (e.g. multiple components),
+    In case a message appears in multiple places (e.g. multiple resources),
     this tab shows all of them if they are found to be inconsistent (see
     :ref:`check-inconsistent`). You can choose which one to use.
 Translation memory
@@ -213,8 +208,8 @@ Glossary
     Displays terms from the project glossary used in the current message.
 Recent edits
     List of people whom have changed this message recently using Weblate.
-Project
-    Project information like instructions for translators, or information about
+Topic
+    Topic information like instructions for translators, or information about
     its version control system repository.
 
 If the translation format supports it, you can also follow supplied links to respective
@@ -223,14 +218,14 @@ source code containing each source string.
 Translation history
 +++++++++++++++++++
 
-Every change is by default (unless turned off in component settings) saved in
+Every change is by default (unless turned off in resource settings) saved in
 the database, and can be reverted. Optionally one can still also revert anything
 in the underlying version control system.
 
 Translated string length
 ++++++++++++++++++++++++
 
-Weblate can limit length of translation in several ways to ensure the
+Anuvad can limit length of translation in several ways to ensure the
 translated string is not too long:
 
 * The default limitation for translation is ten times longer than source
@@ -254,7 +249,7 @@ Managing glossaries
 +++++++++++++++++++
 
 On the :guilabel:`Glossaries` tab of each project page, you can edit
-existing glossaries. An empty glossary for a given project is automatically created when a language is added to a component (to do this, select a component, its :guilabel:`Translation` tab and click :guilabel:`Start new translation`). Once a glossary exists, it will also show up in this list.
+existing glossaries. An empty glossary for a given project is automatically created when a language is added to a component (to do this, select a component, its :guilabel:`Translation` tab and click :guilabel:`Add new language for translation`). Once a glossary exists, it will also show up in this list.
 
 .. image:: /images/project-glossaries.png
 
@@ -271,7 +266,7 @@ which can be used to edit, import or export the selected glossary, or view the e
 Machine translation
 -------------------
 
-Based on configuration and your translated language, Weblate provides you
+Based on configuration and your translated language, Anuvad provides you
 suggestions from several machine translation tools. All machine translations
 are available in a single tab of each translation page.
 
