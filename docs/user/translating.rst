@@ -106,29 +106,6 @@ preferences, translation to these languages will be shown (see :ref:`secondary-l
 Below the translation, any suggestion made by others will be shown, which you
 can in turn accept, accept with changes, or delete.
 
-.. _plurals:
-
-Plurals
-+++++++
-
-Words that change form to account of their numeric designation are called
-plurals.  Each language has its own definition of plurals. English, for
-example, supports one plural.  In the singular definition of for example "car",
-implicitly one car is referenced, in the plural definition, "cars" two or more
-cars are referenced, or the concept of cars as a noun.  Languages like for
-example Czech or Arabic have more plurals and also their rules for plurals are
-different.
-
-Anuvad has full support for each of these forms, in each respective language
-by translating every plural separately.  The number of fields and how it is
-used in the translated application depends on the configured plural equation.
-Anuvad shows the basic information, but you can find a more detailed description in
-the `Language Plural Rules`_ by the Unicode Consortium.
-
-.. _Language Plural Rules: https://unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html
-
-.. image:: /images/plurals.png
-
 Keyboard shortcuts
 ++++++++++++++++++
 
