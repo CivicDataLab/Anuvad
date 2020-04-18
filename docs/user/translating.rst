@@ -25,7 +25,7 @@ Options for translation project visibility:
 Translation projects
 --------------------
 
-Translation projects hold related components, related to the same software, book, or project.
+Translation projects hold related resources, related to the same topic.
 
 .. image:: /images/project-overview.png
 
