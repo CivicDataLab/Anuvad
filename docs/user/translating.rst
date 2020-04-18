@@ -144,21 +144,6 @@ The following keyboard shortcuts can be utilized during translation:
 :kbd:`Ctrl+T` or :kbd:`Option+T`
     Toggles "Needs editing" flag.
 
-.. _visual-keyboard:
-
-Visual keyboard
-+++++++++++++++
-
-A small visual keyboard is shown just above the translation field. This can be useful for
-typing characters not usually found or otherwise hard to type.
-
-The shown symbols factor into three categories:
-
-* User configured characters defined in the :ref:`user-profile`
-* Per language characters provided by Weblate (e.g. quotes or RTL specific characters)
-* Chars configured using :setting:`SPECIAL_CHARS`
-
-.. image:: /images/visual-keyboard.png
 
 .. _source-context:
 
