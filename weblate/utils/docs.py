@@ -23,12 +23,13 @@ import weblate
 def get_doc_url(page, anchor=""):
     """Return URL to documentation."""
     # Should we use tagged release or latest version
-    if "-dev" in weblate.VERSION:
-        version = "latest"
-    else:
-        version = "weblate-{0}".format(weblate.VERSION)
+    version = "latest"
+    # if "-dev" in weblate.VERSION:
+    #     version = "latest"
+    # else:
+    #     version = "weblate-{0}".format(weblate.VERSION)
     # Generate URL
-    url = "https://docs.weblate.org/en/{0}/{1}.html".format(version, page)
+    url = "https://anuvad.readthedocs.io/en/{0}/{1}.html".format(version, page)
     # Optionally append anchor
     if anchor != "":
         url += "#{0}".format(anchor.replace("_", "-"))
