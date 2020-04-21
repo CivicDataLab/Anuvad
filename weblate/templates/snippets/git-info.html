@@ -40,7 +40,7 @@
 {% with object.get_export_url as export_url %}
 {% if export_url %}
 <tr>
-<th>{% trans "Repository containing Weblate translations" %}</th>
+<th>{% trans "Repository containing anuvad translations" %}</th>
 <td colspan="2">
     <code class="git-repo ui-corner-all">{{ export_url }}</code>
     <button type="button" class="btn btn-link btn-xs" data-clipboard-text="{{ export_url }}" title="{% trans "Copy to clipboard" %}">{% icon "copy.svg" %}</button>
