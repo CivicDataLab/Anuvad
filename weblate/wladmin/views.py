@@ -47,7 +47,7 @@ from weblate.wladmin.models import BackupService, ConfigurationError, SupportSta
 from weblate.wladmin.tasks import backup_service
 
 MENU = (
-    ("index", "manage", gettext_lazy("Weblate status")),
+    ("index", "manage", gettext_lazy("Anuvad status")),
     ("backups", "manage-backups", gettext_lazy("Backups")),
     ("memory", "manage-memory", gettext_lazy("Translation memory")),
     ("performance", "manage-performance", gettext_lazy("Performance report")),
@@ -75,7 +75,7 @@ def manage(request):
 
 def send_test_mail(email):
     send_mail(
-        subject="Test e-mail from Weblate on %s" % timezone.now(),
+        subject="Test e-mail from Anuvad on %s" % timezone.now(),
         message="It works.",
         recipient_list=[email],
         from_email=None,
