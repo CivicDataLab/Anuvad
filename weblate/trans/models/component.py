@@ -488,7 +488,7 @@ class Component(models.Model, URLMixin, PathMixin):
         choices=PRIORITY_CHOICES,
         verbose_name=_("Priority"),
         help_text=_(
-            "Components with higher priority are offered first to translators."
+            "Resources with higher priority are offered first to translators."
         ),
     )
 
