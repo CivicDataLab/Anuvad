@@ -29,7 +29,7 @@ from weblate.vcs.gpg import get_gpg_public_key, get_gpg_sign_key
 from weblate.vcs.ssh import get_key_data
 
 MENU = (
-    ("index", "about", _("About Weblate")),
+    ("index", "about", _("About Anuvad")),
     ("stats", "stats", _("Statistics")),
     ("keys", "keys", _("Keys")),
 )
@@ -41,7 +41,7 @@ class AboutView(TemplateView):
     def page_context(self, context):
         context.update(
             {
-                "title": _("About Weblate"),
+                "title": _("About Anuvad"),
                 "versions": get_versions_list(),
                 "allow_index": True,
             }
@@ -65,7 +65,7 @@ class StatsView(AboutView):
     page = "stats"
 
     def page_context(self, context):
-        context["title"] = _("Weblate statistics")
+        context["title"] = _("Anuvad statistics")
 
         stats = GlobalStats()
 
@@ -99,7 +99,7 @@ class KeysView(AboutView):
     def page_context(self, context):
         context.update(
             {
-                "title": _("Weblate keys"),
+                "title": _("Anuvad keys"),
                 "gpg_key_id": get_gpg_sign_key(),
                 "gpg_key": get_gpg_public_key(),
                 "ssh_key": get_key_data(),
