@@ -231,9 +231,9 @@ var _rollbarConfig = {
 {% block breadcrumbs_container %}
 <h1>
 <ol class="breadcrumb">
-<li class="bread-icon">
-{% icon bread_image|default:"error.svg" %}
-</li>
+<!-- <li class="bread-icon"> -->
+<!-- {% icon bread_image|default:"error.svg" %} -->
+<!-- </li> -->
 {% block breadcrumbs %}
 <li><a href="{% url 'home' %}">{% trans "Dashboard" %}</a></li>
 {% endblock %}
