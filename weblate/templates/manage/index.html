@@ -12,7 +12,7 @@
 <div class="panel-heading">
   <h4 class="panel-title">
     {% documentation_icon 'admin/support' right=True %}
-    {% trans "Weblate support status" %}
+    {% trans "Anuvad support status" %}
   </h4>
 </div>
   <table class="table table-condensed table-striped">
@@ -36,11 +36,9 @@
   </table>
   <div class="panel-footer">
   {% if support.name == 'community' %}
-  <a href="https://weblate.org/support/" class="btn btn-primary">{% trans "Purchase support package" %}</a>
-  <a href="https://weblate.org/donate/" class="btn btn-primary">{% trans "Donate to Weblate" %}</a>
+  <a href="https://civicdatalab.in/" class="btn btn-primary">{% trans "Contact CivicDataLab" %}</a>
   {% else %}
-  <a href="https://weblate.org/user/" class="btn btn-primary">{% trans "Manage support package" %}</a>
-  <a href="mailto:support@weblate.org" class="btn btn-primary">{% trans "Get support" %}</a>
+  <a href="mailto:info@civicdatalab.in" class="btn btn-primary">{% trans "Contact CivicDataLab" %}</a>
   {% endif %}
   </div>
 </div>

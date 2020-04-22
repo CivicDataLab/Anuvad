@@ -95,7 +95,7 @@ class SupportStatusManager(models.Manager):
         try:
             return self.latest("expiry")
         except SupportStatus.DoesNotExist:
-            return SupportStatus(name="community")
+            return SupportStatus(name="")
 
 
 class SupportStatus(models.Model):
